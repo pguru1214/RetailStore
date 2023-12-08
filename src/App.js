@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import ProductsStore from "./Components/ProductsStore";
 import {
   createBrowserRouter,
   createRoutesFromElements,
