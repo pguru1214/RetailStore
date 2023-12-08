@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { useDispatch, useSelector } from "react-redux";
@@ -6,8 +6,6 @@ import { add } from "../Store/CartSlice";
 import { getProducts } from "../Store/ProductSlice";
 
 const ProductsStore = () => {
-  //   const [products, getProducts] = useState([]);
-
   const dispatch = useDispatch();
 
   const cartProduct = (product) => {
